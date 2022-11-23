@@ -1,0 +1,72 @@
+*{
+    font-family: 'Bungee', cursive;
+    color: #ffffff;  
+}
+
+html{
+    box-sizing: border-box;
+    background-color: #1BC0A9;
+    
+}
+
+*::before, *::after{
+    box-sizing: inherit;
+    
+}
+
+body{
+    margin: 0 auto;
+}
+
+main{
+    margin: 2em auto;
+    width: 600px;
+    padding: 10px;
+}
+
+.session-break-container{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+}
+
+.left-column{
+    flex: 1;
+    
+}
+
+.right-column{
+    flex: 1;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.buttons-container{
+    padding: 0;
+}
+button{
+    padding: 0;
+    background: none;
+    border: none;
+    margin:0;
+}
+.left-column span, .right-column span, #time-left{
+    font-size: 2em;
+    font-weight: lighter;
+    padding: 0 10px;
+    
+}
+
+.session-counter-container{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+
+
